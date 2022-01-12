@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Pelis</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="https://kit.fontawesome.com/2383ebf068.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="cabecera">
+        <h2 class="titulo">SuperPelis.net</h2>
+        <div class="nav-menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SOBRE NOSOTROS</a></li>
+                <li><a href="#">PELICULAS</a></li>
+                <li><a href="#">SERIES</a></li>
+            </ul>
+            <div class="iconos">
+                <a href="#"><i class="fab fa-instagram-square"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </header>
+    <!--patre trasera del login-->
+    <main> 
+        <div class="contenedor_padre">
+        <div class="trasera">
+            <div class="caja__login">
+            <h3>¿Ya tienes una cuenta?</h3>
+            <p>Inicia sesion para ingresar a la pagina</p>
+            <button id= "btn__inicio-sesion">iniciar sesion</button>
+        </div>
+        <div class="caja__register">
+            <h3>¿Aun no estas registrado?</h3>
+            <p>Registrate para ingresar a la pagina</p>
+            <button id= "btn__registro">Registrarse</button>
+        </div></div>
+        
+        <!--formularios de login y de registro-->
+        <div class="contenedor__login-register">
+            <!--formulario de login-->
+            <form action="" class="formulario__login">
+                <h2>Iniciar sesion</h2>
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="contraseña">
+                <button id="btn__login">Entrar</button>
+            </form>
+            <!--formulario de registro-->
+            <form action="" class="formulario__register">
+                <h2>Registrarse</h2>
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Apellido">
+                <input type="text" placeholder="Email">
+                <input type="password" placeholder="Contraseña">
+                <button id="btn__registrarse">Registrarse</button>
+            </form>
+        </div>
+    </div>
+</main>
+<footer>
+    <h3>Copyrigth©SuperPelis.net</h3>
+
+</footer>
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
